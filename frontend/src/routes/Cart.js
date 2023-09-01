@@ -16,7 +16,7 @@ const Cart = () => {
     }
     const handleCheckout=async()=>{
         let userEmail=localStorage.getItem('userEmail');
-        const response=await fetch("http://localhost:5000/api/orderData",{
+        const response=await fetch("https://cravingcouriers.onrender.com/api/orderData",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
