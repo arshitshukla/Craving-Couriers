@@ -55,7 +55,7 @@ const Navbar = () => {
                 </span>
                 </button>
               {cartView?<Modal onClose={()=>{setCartView(false)}}><Cart/></Modal>:null}
-              <button className="btn btn-light  " onClick={logout} >Sign-Out</button>
+              <button className="btn btn-light" onClick={logout} >Sign-Out</button>
             </form>}
           </div>
         </div>
