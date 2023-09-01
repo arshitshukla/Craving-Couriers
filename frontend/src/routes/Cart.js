@@ -59,9 +59,7 @@ const Cart = () => {
                             <td>{food.qty}</td>
                             <td>{food.size}</td>
                             <td>{food.price}</td>
-                            <td ><button type="button" className="btn p-0">
-                            <i className="fa-solid fa-trash" style={{color: "#ffffff"}} onClick={()=>{dispatch({type:"REMOVE",index:index})}}/>
-                                </button> </td>
+                            <td ><button type="button" className="btn btn-danger p-0" onClick={()=>{dispatch({type:"REMOVE",index:index})}}><span className='m-2'>X</span></button> </td>
                         </tr>
                      ))}
                     </tbody>

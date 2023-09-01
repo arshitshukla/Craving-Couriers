@@ -45,7 +45,7 @@ const LoginForm = () => {
                 <div className="card" style={{ borderr: "15px" }}>
                   <div className="card-body p-5">
                     <h2 className="text-uppercase text-center mb-5">
-                      Create an account
+                      Log In to your account
                     </h2>
 
                     <form onSubmit={handlesubmit}>
