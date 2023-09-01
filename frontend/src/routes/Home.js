@@ -12,7 +12,7 @@ const Home = () => {
   const[foodData,setFoodData]=useState([]);
 
   const loadData=async()=>{
-    let response=await fetch("http://localhost:5000/api/foodData",{
+    let response=await fetch("https://cravingcouriers.onrender.com/api/foodData",{
       method:"GET"
     });
     response=await response.json();
