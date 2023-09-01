@@ -9,7 +9,7 @@ const LoginForm = () => {
     const handlesubmit= async (e)=>{
         e.preventDefault();
         const {email,password}=credentials;
-        const response= await fetch("http://localhost:5000/api/loginuser",{
+        const response= await fetch("https://cravingcouriers.onrender.com/api/loginuser",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
